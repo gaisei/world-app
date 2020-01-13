@@ -1,7 +1,18 @@
 <template>
-  <div class="container">
-    <h1>
-      Watch the World!
-    </h1>
+  <div>
+    <Header />
+    <CountryList />
   </div>
 </template>
+
+<script>
+import Header from '@/components/Header'
+import CountryList from '@/components/CountryList'
+
+export default {
+  components: {
+    Header,
+    CountryList
+  }
+}
+</script>

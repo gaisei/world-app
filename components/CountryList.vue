@@ -1,10 +1,12 @@
 <template>
   <section>
     <div class="country-list">
-      <div class="country-item">
-        <p class="country-image"><img src="@/assets/images/usa/top.jpg" alt=""></p>
-        <p class="country-name">アメリカ</p>
-      </div>
+      <nuxt-link to="/country">
+        <div class="country-item">
+          <p class="country-image"><img src="@/assets/images/usa/top.jpg" alt=""></p>
+          <p class="country-name">アメリカ</p>
+        </div>
+      </nuxt-link>
       <div class="country-item">
         <p class="country-image"><img src="@/assets/images/usa/top.jpg" alt=""></p>
         <p class="country-name">イギリス</p>
